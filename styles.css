@@ -1,0 +1,60 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 页眉样式 */
+header {
+    background: #007BFF; /* 设置为蓝色背景 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* 移除默认的列表样式 */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* 水平排列 */
+    margin: 0 15px; /* 间距 */
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* 移除下划线 */
+}
+
+/* 各个部分的样式 */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: white; /* 设置背景为白色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+/* 图片样式 */
+section img {
+    width: 300px; /* 设置宽度 */
+    height: 300px; /* 设置高度，使其为正方形 */
+    object-fit: cover; /* 保持图像的比例并覆盖整个区域 */
+    border-radius: 8px; /* 可选：增加圆角 */
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #007BFF; /* 页脚使用相同的蓝色背景 */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
